@@ -32,4 +32,50 @@
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
+#header-image{
+    width:100%;
+}
+
+ul li{
+    color: hsl(110, 29%, 52%);
+}
+
+.date{
+    font-size: smaller;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: hsl(359, 79%, 56%);
+}
+
+a:hover{
+    color:hsl(359, 79%, 80%);
+}
+
+main a:link{
+    color: hsl(59, 79%, 56%);
+}
+
+main a:hover{
+    color: hsl(159, 59%, 56%);
+}
+
+input[type=submit]{
+    background-color: red;
+}
+
+input[type=text]:focus{
+    border-style:solid;
+    border-width: 5px;
+    border-color: blue;
+}
+h1,h2,h3{
+    font-family: "Bradley Hand ITC",Serif;
+}
+
+
 
